@@ -42,7 +42,7 @@ exports.Event = void 0;
 var graphql_1 = require("@nestjs/graphql");
 var order_entity_1 = require("src/order/entities/order.entity");
 var typeorm_1 = require("typeorm");
-var Event = function () {
+var Event = (function () {
     var _classDecorators = [(0, graphql_1.ObjectType)(), (0, typeorm_1.Entity)()];
     var _classDescriptor;
     var _classExtraInitializers = [];
@@ -92,5 +92,5 @@ var Event = function () {
         __runInitializers(_classThis, _classExtraInitializers);
     })();
     return Event = _classThis;
-}();
+}());
 exports.Event = Event;
